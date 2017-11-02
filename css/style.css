@@ -1,5 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url(http://allfont.ru/allfont.css?fonts=playfair-display);
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
+.Background {
+  width: 1300px;
+  height: 3500px;
+}
+
+.Top-navigation-bg {
+  float: left;
+  width: 1270px;
+  height: 100px;
+  opacity: 0.35;
+  background-color: #000000;
+  position:relative;
+ }
+ 
+.Home-About-us {
+  width: 128px;
+  height: 14px;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  color:  #ffffff;
+  padding-left:417px;
+  padding-top: 42px;
+  position:absolute;
+  padding: 42px 725px 44px 417px;
+}
+
+.text-style-1 {
+  font-weight: 900;
+  color: #f5d76e;
+}
+
+.Menu-Blog-Contact {
+  width: 171px;
+  height: 16px;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: center;
+  color: #ffffff;
+  position:absolute;
+  padding: 42px 322px 42px 777px;
+}
+
+.Be-latte---logo {
+  width: 154px;
+  height: 127px;
+  object-fit: contain;
+  /*background-color: #f5d76e;*/
+  position:absolute;
+  padding:4px 533px 0 583px;
+}
 body {
     margin: 0;
 }
@@ -90,7 +145,6 @@ body {
 }
 ul {
     display: inline-block;
-
 }
 li {
     list-style-type: none;
@@ -109,13 +163,13 @@ li {
     display: inline-block;
 }
 .button-fm {
-  width: 232px;
-  height: 54px;
-  background-color: white;
-  border: solid 2px #39312f;
-  margin: 0 auto;
-  margin-top: 59px;
-  position: relative;
+    width: 232px;
+    height: 54px;
+    background-color: white;
+    border: solid 2px #39312f;
+    margin: 0 auto;
+    margin-top: 59px;
+    position: relative;
 }
 .btn-fm {
     position: absolute;
@@ -134,3 +188,4 @@ li {
 .desserts-name {
     margin-right: 56px;
 }
+
