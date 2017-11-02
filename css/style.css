@@ -1,4 +1,10 @@
 @import url(http://allfont.ru/allfont.css?fonts=playfair-display);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.header-bg {  
+  position:absolute;
+  padding:15px 16px 0px 15px;
+}
 
 .Background {
   width: 1300px;
@@ -53,4 +59,61 @@
   /*background-color: #f5d76e;*/
   position:absolute;
   padding:4px 533px 0 583px;
+}
+
+
+.coffee-shop {
+  width: 1270px;
+  height: 700px;
+  object-fit: contain;
+  position: absolute;
+  padding:15px 15px 0px 15px;
+}
+
+.Welcome-to-Be-Latte {
+  width: 444px;
+  height: 39px;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 0.58;
+  text-align: center;
+  color: #f5d76e;
+  position: absolute;
+  margin: 316px 675px 3145px 179px;
+}
+
+.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
+  width: 436px;
+  height: 39px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+  margin: 382px 680px 3079px 184px;
+  position:absolute;
+}
+
+.Btn-bg {
+  width: 185px;
+  height: 54px;
+  border: solid 2px #ffffff;
+  margin: 459px 931px 2987px 184px;
+  position: absolute;
+}
+
+.See-menu {
+  width: 66px;
+  height: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.85;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  text-align: right;
+  margin: 16px 60px;
+
 }
