@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    margin: 0;
+}
+.menu {
+    position: fixed;
+    top: 80px;
+    display: block;
+}
+.title {
+    width: 94px;
+    height: 24px;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #2f2f2f;
+}
+.img-placeholder {
+    margin-top: 59px;
+}
+.coffee-placeholder {
+    width: 395px;
+    height: 295px;
+    display: inline-block;
+    position: relative;
+}
+.tea-photo-placeholder {
+    width: 395px;
+    height: 295px;
+    display: inline-block;
+    position: relative;
+}
+.desert-placeholder {
+    width: 395px;
+    height: 295px;
+    background-color: #f5d76e;
+    display: inline-block;
+    position: relative;
+}
+.cup-coffee {
+    width: 395px;
+    height: 295px;
+    object-fit: contain;
+}
+.tea-realisticshots {
+    width: 395px;
+    height: 295px;
+    object-fit: contain;
+}
+.dessert {
+    width: 395px;
+    height: 295px;
+    object-fit: contain;
+    opacity: 0.25;
+}
+.coffee {
+    width: 160px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+.tea {
+    width: 78px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+.desserts {
+    width: 205px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 96px;
+}
+ul {
+    display: inline-block;
+
+}
+li {
+    list-style-type: none;
+    font-family: Lato;
+    color: #28211f;
+    line-height: 1.75;
+    font-size: 16px;
+}
+.name-product {
+    font-weight: 900;
+}
+.price-desserts,
+.price-tea,
+.price-coffee {
+    margin-left: 30px;
+    display: inline-block;
+}
+.button-fm {
+  width: 232px;
+  height: 54px;
+  background-color: white;
+  border: solid 2px #39312f;
+  margin: 0 auto;
+  margin-top: 59px;
+  position: relative;
+}
+.btn-fm {
+    position: absolute;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    color: #39312f;
+    top: 20px;
+    left: 65px;
+}
+.tea-name {
+    margin-right: 36px;
+}
+.coffee-name,
+.desserts-name {
+    margin-right: 56px;
+}
