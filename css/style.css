@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+body {
+	width: 1300px;
+	height: 3500px;
+	margin: 15px 15px 0 15px;
+}
+
+.block_location {
+	width: 1300px;
+	height: 524px;
+	padding-top: 2668px;
+}
+
+.Location {
+  width: 167px;
+  height: 24px;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.75;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+  padding: 0 566px 60px 567px;
+}
+
+.houston-city {
+  width: 1270px;
+  height: 425px;
+  object-fit: contain;
+  position: absolute;
+}
+
+.Hours-bg {
+  width: 458px;
+  height: 425px;
+  background-color: #f5d76e;
+  position: relative;
+}	
