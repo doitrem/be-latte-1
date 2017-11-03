@@ -1,70 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-/*Футер сайта*/
-body, html {
-    width:100%;
-    height: 100%;
-    margin:0;
+body {
+    width: 1300px;
+    height: 3500px;
 }
 
-footer {
-	margin:0;
+.header-bg {
+    position:absolute;
 }
 
-.footer-bg {
-  width: 1300px;
-  height: 308px;
+.Top-navigation-bg {
+    float: left;
+    width: 1270px;
+    height: 100px;
+    opacity: 0.35;
+    background-color: #000000;
+    position:relative;
+ }
+.Home-About-us {
+    width: 128px;
+    height: 14px;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.75;
+    color:  #ffffff;
+    padding-left:417px;
+    padding-top: 42px;
+    position:absolute;
+    padding: 42px 725px 44px 417px;
+}
+.text-style-1 {
+    font-weight: 900;
+    color: #f5d76e;
+}
+.Menu-Blog-Contact {
+    width: 171px;
+    height: 16px;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.75;
+    text-align: center;
+    color: #ffffff;
+    position:absolute;
+    padding: 42px 322px 42px 777px;
+}
+.Be-latte---logo {
+    width: 154px;
+    height: 127px;
+    object-fit: contain;
+    position:absolute;
+    padding:4px 533px 0 583px;
+}
+.coffee-shop {
+    width: 1270px;
+    height: 700px;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.Welcome-to-Be-Latte {
+    width: 444px;
+    height: 39px;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.58;
+    text-align: center;
+    color: #f5d76e;
+    position: absolute;
+    left: 166px;
+    top: 301px;
+}
+.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
+    width: 436px;
+    height: 39px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    position:absolute;
+    left: 169px;
+    top: 367px;
+}
+
+.Btn-bg {
+    width: 185px;
+    height: 54px;
+    border: solid 2px #ffffff;
+    position: absolute;
+    top: 444px;
+    left: 169px;
+}
+.See-menu {
+    width: 66px;
+    height: 10px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.85;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+.welcome-to {
+    width: 1270px;
+    height: 700px;
+}
+.menu {
+    margin-top: 80px;
+    position: relative;
+}
+.title {
+    width: 94px;
+    height: 24px;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2f2f2f;
+    margin: 0 auto;
+}
+.img-placeholder {
+    margin-top: 59px;
+}
+.coffee-placeholder {
+    width: 395px;
+    height: 295px;
+    display: inline-block;
+    position: relative;
+}
+.tea-photo-placeholder {
+    width: 395px;
+    height: 295px;
+    display: inline-block;
+    position: relative;
+}
+.desert-placeholder {
+    width: 395px;
+    height: 295px;
+    background-color: #f5d76e;
+    display: inline-block;
+    position: relative;
+}
+.cup-coffee {
+    width: 395px;
+    height: 295px;
+    object-fit: contain;
+}
+.tea-realisticshots {
+    width: 395px;
+    height: 295px;
+    object-fit: contain;
+}
+.dessert {
+    width: 395px;
+    height: 295px;
+    object-fit: contain;
+    opacity: 0.25;
+}
+.coffee {
+    width: 160px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+.tea {
+    width: 78px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+.desserts {
+    width: 205px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 96px;
+}
+ul {
+    display: inline-block;
+}
+li {
+    list-style-type: none;
+    font-family: Lato;
+    color: #28211f;
+    line-height: 1.75;
+    font-size: 16px;
+}
+
+.name-product {
+    font-weight: 900;
+}
+
+.price-desserts,
+.price-tea,
+.price-coffee {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.button-fm {
+    width: 232px;
+    height: 54px;
+    background-color: white;
+    border: solid 2px #39312f;
+    margin: 0 auto;
+    margin-top: 59px;
+    position: relative;
+}
+
+.btn-fm {
+    position: absolute;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    color: #39312f;
+    top: 20px;
+    left: 65px;
+}
+
+.tea-name {
+    margin-right: 36px;
+}
+
+.coffee-name,
+.desserts-name {
+    margin-right: 56px;
+}
+
+.header {
+  width: 441px;
+  height: 60px;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 0.75;
+  text-align: left;
+  color: #100C0B;
+  color: var(--black);
+  position: relative;
+  top: 10px;
+  left: 470px;
+  margin-top: 100px;
+}
+
+.BG {
+  width: 1270px;
+  height: 425px;
   background-color: #39312f;
-  position:relative;
+  position: relative;
 }
 
-#wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.realisticshots-coffee-photo {
+  width: 821px;
+  height: 425px;
+  position: absolute;
 }
 
-#content {
-  flex: 1 0 auto;
+.Testimonial-bg {
+  width: 458px;
+  height: 425px;
+  position: absolute;
+  right: 0;
 }
 
-.facebook-icon {
-  width: 14px;
-  height: 26px;
+.realisticshots-coffee-photo {
+  width: 1270px;
+  height: 425px;
   object-fit: contain;
-  /*background-color: #ffffff;*/
-  position:absolute;
-  padding: 93px 696px 189px 590px;
 }
 
-.twitter-icon {
-  width: 26px;
-  height: 20px;
-  object-fit: contain;
-  /*background-color: #ffffff;*/
-  position:absolute;
-  padding:97px 642px 191px 632px;
+.Chris-Parker {
+  position: absolute;
+  top: 197px;
+  left: 171px;
+  width: 118px;
+  height: 17px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #f5d76e;
 }
 
-.Instagram-icon {
-  width: 25px;
-  height: 24px;
-  object-fit: contain;
-  /*background-color: #ffffff;*/
-  position:absolute;
-  padding:95px 589px 189px 686px;
+.layer {
+  width: 111px;
+  height: 50px;
+  font-family: Playfair Display;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 0.23;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.03);
+  position: absolute;
+  top: 32px;
+  left: 30px;
 }
 
-.St-Thomas-street-21st-Suite-110-Santa-Monica-California {
-  width: 437px;
-  height: 15px;
+.text {
+  width: 256px;
+  height: 75px;
   font-family: Lato;
   font-size: 16px;
-  font-weight: bold;
-  line-height: 1.5;
-  letter-spacing: 0.4px;
+  line-height: 1.31;
   text-align: center;
   color: #ffffff;
-  position:absolute;
-  padding:161px 431px 132px 432px;
+  position: absolute;
+  top: 234px;
+  left: 101px;
+}
+
+.quotation-mark {
+  width: 77px;
+  height: 57px;
+  font-family: Playfair Display;
+  font-size: 200px;
+  font-weight: bold;
+  line-height: 0.11;
+  color: rgba(255, 255, 255, 0.03);
+  position: absolute;
+  right: 25px;
+  top: 400px;
+}
+
+.Bruno-Bergher {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  background-color: #ececec;
+  border-radius: 50%;
+}
+
+.photo-placeholder{
+  position: absolute;
+  top: 98px;
+  left: 187px;
+}
+
+.Ellipse {
+  width: 11px;
+  height: 11px;
+  background-color: #39312f;
+  border: solid 1px #ececec;
+  position: absolute;
+  left: 200px;
+  top: 350px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.Ellipse-1-copy {
+  width: 9px;
+  height: 9px;
+  background-color: #ececec;
+  border: solid 1px #ececec;
+  position: absolute;
+  left: 225px;
+  top: 350px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.Ellipse-2-copy {
+  width: 9px;
+  height: 9px;
+  background-color: #ececec;
+  border: solid 1px #ececec;
+  position: absolute;
+  left: 250px;
+  top: 350px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
