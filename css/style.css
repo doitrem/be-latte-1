@@ -145,6 +145,7 @@ body {
 }
 .img-placeholder {
     margin-top: 59px;
+    width: 1270;
 }
 .coffee-placeholder {
     width: 395px;
@@ -157,6 +158,8 @@ body {
     height: 295px;
     display: inline-block;
     position: relative;
+    margin-left: 38px;
+    margin-right: 39px;
 }
 .desert-placeholder {
     width: 395px;
@@ -484,5 +487,3 @@ span {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
-
-
