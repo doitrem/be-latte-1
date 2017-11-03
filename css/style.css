@@ -126,6 +126,7 @@ body {
 }
 .img-placeholder {
     margin-top: 59px;
+    width: 1270px;
 }
 .coffee-placeholder {
     width: 395px;
@@ -138,6 +139,8 @@ body {
     height: 295px;
     display: inline-block;
     position: relative;
+    margin-left: 38px;
+    margin-right: 39px;
 }
 .desert-placeholder {
     width: 395px;
@@ -260,6 +263,7 @@ li {
   height: 425px;
   background-color: #39312f;
   position: relative;
+  top: 60px;
 }
 .realisticshots-coffee-photo {
   width: 821px;
