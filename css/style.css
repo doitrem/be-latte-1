@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');	
 
 body {
-	width: 1300px;
-	height: 3500px;
-	margin:0;
+    width: 1300px;
+    height: 3500px;
+    margin: 0 auto;
 }
-
 .content {
 	margin: 15px 15px 0 15px;
 	position: relative;
