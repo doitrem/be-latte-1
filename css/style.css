@@ -4,7 +4,12 @@
 body {
 	width: 1300px;
 	height: 3500px;
+	margin:0;
+}
+
+.content {
 	margin: 15px 15px 0 15px;
+	position: relative;
 }
 
 .block_location {
@@ -80,7 +85,7 @@ body {
     background-color: rgba(0, 0, 0, 0.45);
 }
 .Welcome-to-Be-Latte {
-    width: 444px;
+    width: 464px;
     height: 39px;
     font-family: Playfair Display;
     font-size: 48px;
@@ -486,4 +491,67 @@ span {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+}
+
+footer {
+	margin:0;
+}
+
+.footer-bg {
+  width: 1300px;
+  height: 308px;
+  margin:0;
+  background-color: #39312f;
+  position:relative;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
+.facebook-icon {
+  width: 14px;
+  height: 26px;
+  object-fit: contain;
+  /*background-color: #ffffff;*/
+  position:absolute;
+  padding: 93px 696px 189px 590px;
+}
+
+.twitter-icon {
+  width: 26px;
+  height: 20px;
+  object-fit: contain;
+  /*background-color: #ffffff;*/
+  position:absolute;
+  padding:97px 642px 191px 632px;
+}
+
+.Instagram-icon {
+  width: 25px;
+  height: 24px;
+  object-fit: contain;
+  /*background-color: #ffffff;*/
+  position:absolute;
+  padding:95px 589px 189px 686px;
+}
+
+.St-Thomas-street-21st-Suite-110-Santa-Monica-California {
+  width: 437px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+  position:absolute;
+  padding:161px 431px 132px 432px;
 }
