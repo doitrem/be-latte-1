@@ -18,9 +18,7 @@ body {
 	
 }
 
-.Location {
-    width: 167px;
-    height: 24px;
+h2 {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: bold;
@@ -28,7 +26,7 @@ body {
     text-align: left;
     color: #28211f;
     color: var(--black);
-    padding: 0 567px 60px 566px;
+    padding: 0 566px 60px 567px;
 }
 
 .header-bg {
@@ -289,11 +287,11 @@ li {
     padding: 98px 424px 0 445px;
 }
 
-.houston-city {
+iframe {
     width: 1270px;
     height: 425px;
-    object-fit: contain;
     position: absolute;
+    float: right;
 }
 
 .Hours-bg {
