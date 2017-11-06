@@ -140,22 +140,26 @@ a.Menu {
     height: 54px;
     border: solid 2px #ffffff;
     position: absolute;
+    z-index:100;
     top: 444px;
     margin-left:169px;
 }
 
 .See-menu {
-    width: 185px;
-    height: 10px;
-    font-family: Lato;
-    font-size: 13px;
-    font-weight: 900;
-    line-height: 1.85;
-    letter-spacing: 0.3px;
-    color: #ffffff;
-    position: absolute;
-    padding-left: 60px;
-    top: 15px;
+  width: 66px;
+  height: 10px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.85;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  position:absolute;
+  z-index:200;
+  padding-top:15px;
+  padding-left:59px;
 }
 
 .menu {
