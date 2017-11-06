@@ -94,6 +94,19 @@ a.Menu {
     object-fit: contain;
     background-color: rgba(0, 0, 0, 0.45);
 }
+.welcome-to {
+    width: 1270px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top:15px;
+}
+
+.coffee-shop {
+    width: 1270px;
+    height: 700px;
+    object-fit: contain;
+}
+
 .Welcome-to-Be-Latte {
     width: 464px;
     height: 39px;
@@ -103,31 +116,36 @@ a.Menu {
     line-height: 0.58;
     text-align: center;
     color: #f5d76e;
-    position: absolute;
-    left: 166px;
-    top: 301px;
-}
-.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
-    width: 436px;
-    height: 39px;
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    text-align: left;
-    color: #ffffff;
     position:absolute;
-    left: 169px;
-    top: 367px;
+    top:301px;
+    padding-left:166px;
 }
+
+.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
+  width: 600px;
+  height: 39px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+  position:absolute;
+  top: 367px;
+  padding-left: 169px;
+}
+
 .Btn-bg {
     width: 185px;
     height: 54px;
     border: solid 2px #ffffff;
     position: absolute;
     top: 444px;
-    left: 169px;
+    padding-left: 169px;
+    box-sizing: inherit;
+box-sizing: border-box;
 }
+
 .See-menu {
     width: 66px;
     height: 10px;
@@ -138,13 +156,8 @@ a.Menu {
     letter-spacing: 0.3px;
     color: #ffffff;
     position: absolute;
-    left: 60px;
+    padding-left: 60px;
     top: 15px;
-}
-
-.welcome-to {
-    width: 1270px;
-    height: 700px;
 }
 
 .menu {
