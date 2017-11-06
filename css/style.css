@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');	
 
-body {
-	width: 100%;
-	margin: 0 auto;
+.Background {
+  width: 1300px;
+  height: 3500px;
+  margin: 0 auto;
 }
 
-.content {
+/* .content {
 	margin: 1vw 1vw 0 1vw;
 	position: relative;
-}
+} */
 
 .block_location {
 	width: 1270px;
@@ -28,19 +29,33 @@ body {
     color: #28211f;
     color: var(--black);
     padding: 0 567px 60px 566px;
-}
+} 
 
 .header-bg {
-    position:absolute;
+  width: 1270px;
+  height: 700px;
+  /* background-color: #ffffff; */
+  margin: 0 auto;
+  position:absolute;
 }
-.Top-navigation-bg {
+
+/* .Top-navigation-bg {
     float: left;
     width: 1270px;
     height: 100px;
     opacity: 0.35;
     background-color: #000000;
     position:relative;
- }
+ } */
+ 
+ .Top-navigation-bg {
+  width: 1270px;
+  height: 100px;
+  opacity: 0.35;
+  background-color: #000000;
+  margin:0 auto;
+}
+ 
 .Home-About-us {
     width: 128px;
     height: 14px;
