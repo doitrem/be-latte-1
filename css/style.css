@@ -122,8 +122,8 @@ a.Menu {
 }
 
 .Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
-  width: 600px;
-  height: 39px;
+  width: 436px;
+  height: 59px;
   font-family: Lato;
   font-size: 16px;
   font-weight: 500;
@@ -141,13 +141,11 @@ a.Menu {
     border: solid 2px #ffffff;
     position: absolute;
     top: 444px;
-    padding-left: 169px;
-    box-sizing: inherit;
-box-sizing: border-box;
+    margin-left:169px;
 }
 
 .See-menu {
-    width: 66px;
+    width: 185px;
     height: 10px;
     font-family: Lato;
     font-size: 13px;
