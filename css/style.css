@@ -1,13 +1,177 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');	
 
 * {
-		padding: 0;
-		margin: 0;
+  margin:0;
+  padding:0;
 }
+
 .content {
-		width: 1300px;
-		margin: 0 auto;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.header-bg {
+  width: 1300px;
+  height: 700px;
+  position:absolute;
+}
+
+ .Top-navigation-bg {
+  width: 100%;
+  height: 100px;
+  opacity: 0.35;
+  background-color: #000000;
+}
+ 
+.Home-About-us {
+  width: 198px;
+  height: 14px;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: center;
+  color: #ffffff;
+  link:white;
+  float: left;
+  padding-left:347px;
+  padding-top:42px;
+}
+
+.text-style-1 {
+    font-weight: 900;
+    color: #f5d76e;
+}
+
+.Menu-Blog-Contact {
+  width: 250px;
+  height: 16px;
+  font-family: PlayfairDisplay;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  padding-top:42px;
+  padding-left:40px;
+}
+
+.Be-latte---logo {
+  width: 154px;
+  height: 127px;
+  object-fit: contain;
+  float:left;
+  padding-top:4px;
+  padding-left:38px;
+}
+
+a.About-us {
+    color: white;
+	text-decoration:none;
+    padding-left:20px;
+}
+
+a.Blog {
+    color: white;
+	text-decoration:none;
+    padding-left:20px;
+}
+
+a.Contact {
+    color: white;
+	text-decoration:none;
+    padding-left:20px;
+}
+
+a.Menu {
+    color: white;
+	text-decoration:none;
+}
+
+.welcome-to {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coffee-shop {
+    width: 100%;
+    object-fit: contain;
+}
+
+.Welcome-to-Be-Latte {
+    width: 464px;
+    height: 39px;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.58;
+    text-align: center;
+    color: #f5d76e;
+    position:absolute;
+    top:301px;
+    padding-left:166px;
+}
+
+.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
+  width: 436px;
+  height: 59px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+  position:absolute;
+  top: 367px;
+  padding-left: 169px;
+  overflow: hidden;
+}
+
+.Btn-bg {
+    width: 185px;
+    height: 54px;
+    border: solid 2px #ffffff;
+    position: absolute;
+    z-index:100;
+    top: 444px;
+    margin-left:169px;
+}
+
+.See-menu {
+  width: 500px;
+  height: 10px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.85;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  position:absolute;
+  z-index:200;
+  padding-top:15px;
+  padding-left:59px;
+}
+
+.block_location {
+	width: 100%;
+	height: 524px;
+	
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 0.75;
+    text-align: center;
+    color: #28211f;
+    color: var(--black);
+    padding-bottom:60px;
+    margin: 0;
 }
 .menu {
 		max-width: 1270px;
@@ -155,4 +319,271 @@ li {
 .desserts-name {
 		margin-right: 20.77%;
 		margin-left: 15%;
+}
+
+.block_coffee {
+	width: 100%;
+    height: 423px;
+}
+
+iframe {
+    width: 65%;
+    height: 425px;
+    float: right;
+}
+
+.Hours-bg {
+    width: 35%;
+    height: 425px;
+    background-color: #f5d76e;
+    float: left;
+}
+
+.info {
+	width: 80%;
+    height: 302px;
+    position: relative;
+    padding: 59px 50px 64px 50px; 
+}
+
+h3 {
+	height: 16px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    color: #28211f;
+    color: var(--black);
+    margin: 0 0 23px 0;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #28211f;
+    color: var(--black);
+    margin: 0 0 19px 0;
+}
+span {
+	font-weight: 600;
+}
+
+.Coffee-never-tasted-so-good u {
+    font-weight: 900;
+}
+
+.morbi {
+	width: 59%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #28211f;
+    color: var(--black);
+    margin: 0 auto;
+    padding: 32px 0 80px 0;
+}
+
+.icon-coffee {
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+    padding: 0 0 80px 48%;
+}
+
+.header {
+    width: 214px;
+    height: 24px;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 0.75;
+    text-align: left;
+    color: #100C0B;
+    color: var(--black);
+    position: relative;
+    padding: 0 530px 60px 530px;
+}
+.BG {
+    width: 1270px;
+    height: 425px;
+    background-color: #39312f;
+    position: relative;
+}
+.realisticshots-coffee-photo {
+    width: 821px;
+    height: 425px;
+    position: absolute;
+}
+.Testimonial-bg {
+    width: 458px;
+    height: 425px;
+    position: absolute;
+    right: 0;
+}
+.realisticshots-coffee-photo {
+    width: 1270px;
+    height: 425px;
+    object-fit: contain;
+}
+.Chris-Parker {
+    position: absolute;
+    top: 197px;
+    left: 171px;
+    width: 118px;
+    height: 17px;
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5d76e;
+ } 
+.layer {
+    width: 111px;
+    height: 50px;
+    font-family: Playfair Display;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 0.23;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    top: 32px;
+    left: 30px;
+}
+.text {
+    width: 256px;
+    height: 75px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.31;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 234px;
+    left: 101px;
+}
+.quotation-mark {
+    width: 77px;
+    height: 57px;
+    font-family: Playfair Display;
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 0.11;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    right: 25px;
+    top: 400px;
+}
+.Bruno-Bergher {
+    width: 84px;
+    height: 84px;
+    object-fit: contain;
+    background-color: #ececec;
+    border-radius: 50%;
+}
+.photo-placeholder{
+    position: absolute;
+    top: 98px;
+    left: 187px;
+}
+.Ellipse {
+    width: 11px;
+    height: 11px;
+    background-color: #39312f;
+    border: solid 1px #ececec;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.Ellipse-1-copy {
+    width: 9px;
+    height: 9px;
+    background-color: #ececec;
+    border: solid 1px #ececec;
+    position: absolute;
+    left: 225px;
+    top: 350px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.Ellipse-2-copy {
+    width: 9px;
+    height: 9px;
+    background-color: #ececec;
+    border: solid 1px #ececec;
+    position: absolute;
+    left: 250px;
+    top: 350px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.footer-bg {
+  width: 100%;
+  height: 308px;
+  background-color: #39312f;
+  
+}
+
+.Social {
+  width: 100%;
+  padding-top: 93px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; 
+}
+ 
+.facebook-icon {
+  width: 14px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+  border: none;
+}
+
+.twitter-icon {
+  width: 26px;
+  height: 20px;
+  object-fit: contain;
+  padding-left:28px;
+}
+
+.Instagram-icon {
+  width: 25px;
+  height: 24px;
+  object-fit: contain;
+  padding-left:28px;
+}
+
+.Street-scroll {
+  width: 100%;
+  padding-top:44px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; 
+ }
+
+.St-Thomas-street-21st-Suite-110-Santa-Monica-California {
+  width: 700px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
 }
