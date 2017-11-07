@@ -1,9 +1,159 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');	
 
+* {
+  margin:0;
+  padding:0;
+}
+
 .content {
-    width: 1300px;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.header-bg {
+  width: 1300px;
+  height: 700px;
+  position:absolute;
+}
+
+ .Top-navigation-bg {
+  width: 100%;
+  height: 100px;
+  opacity: 0.35;
+  background-color: #000000;
+}
+ 
+.Home-About-us {
+  width: 198px;
+  height: 14px;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: center;
+  color: #ffffff;
+  link:white;
+  float: left;
+  padding-left:347px;
+  padding-top:42px;
+}
+
+.text-style-1 {
+    font-weight: 900;
+    color: #f5d76e;
+}
+
+.Menu-Blog-Contact {
+  width: 250px;
+  height: 16px;
+  font-family: PlayfairDisplay;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  padding-top:42px;
+  padding-left:40px;
+}
+
+.Be-latte---logo {
+  width: 154px;
+  height: 127px;
+  object-fit: contain;
+  float:left;
+  padding-top:4px;
+  padding-left:38px;
+}
+
+a.About-us {
+    color: white;
+	text-decoration:none;
+    padding-left:20px;
+}
+
+a.Blog {
+    color: white;
+	text-decoration:none;
+    padding-left:20px;
+}
+
+a.Contact {
+    color: white;
+	text-decoration:none;
+    padding-left:20px;
+}
+
+a.Menu {
+    color: white;
+	text-decoration:none;
+}
+
+.welcome-to {
+    width: 100%;
     margin: 0 auto;
+}
+
+.coffee-shop {
+    width: 100%;
+    object-fit: contain;
+}
+
+.Welcome-to-Be-Latte {
+    width: 464px;
+    height: 39px;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.58;
+    text-align: center;
+    color: #f5d76e;
+    position:absolute;
+    top:301px;
+    padding-left:166px;
+}
+
+.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
+  width: 436px;
+  height: 59px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+  position:absolute;
+  top: 367px;
+  padding-left: 169px;
+  overflow: hidden;
+}
+
+.Btn-bg {
+    width: 185px;
+    height: 54px;
+    border: solid 2px #ffffff;
+    position: absolute;
+    z-index:100;
+    top: 444px;
+    margin-left:169px;
+}
+
+.See-menu {
+  width: 500px;
+  height: 10px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.85;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  position:absolute;
+  z-index:200;
+  padding-top:15px;
+  padding-left:59px;
 }
 
 .block_location {
@@ -22,111 +172,6 @@ h2 {
     color: var(--black);
     padding-bottom:60px;
     margin: 0;
-}
-
-.header-bg {
-    position:absolute;
-}
-.Top-navigation-bg {
-    float: left;
-    width: 1270px;
-    height: 100px;
-    opacity: 0.35;
-    background-color: #000000;
-    position:relative;
- }
-.Home-About-us {
-    width: 128px;
-    height: 14px;
-    font-family: Playfair Display;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.75;
-    color:  #ffffff;
-    padding-left:417px;
-    padding-top: 42px;
-    position:absolute;
-    padding: 42px 725px 44px 417px;
-}
-.text-style-1 {
-    font-weight: 900;
-    color: #f5d76e;
-}
-.Menu-Blog-Contact {
-    width: 171px;
-    height: 16px;
-    font-family: Playfair Display;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.75;
-    text-align: center;
-    color: #ffffff;
-    position:absolute;
-    padding: 42px 322px 42px 777px;
-}
-.Be-latte---logo {
-    width: 154px;
-    height: 127px;
-    object-fit: contain;
-    position:absolute;
-    padding:4px 533px 0 583px;
-}
-.coffee-shop {
-    width: 1270px;
-    height: 700px;
-    object-fit: contain;
-    background-color: rgba(0, 0, 0, 0.45);
-}
-.Welcome-to-Be-Latte {
-    width: 464px;
-    height: 39px;
-    font-family: Playfair Display;
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 0.58;
-    text-align: center;
-    color: #f5d76e;
-    position: absolute;
-    left: 166px;
-    top: 301px;
-}
-.Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
-    width: 436px;
-    height: 39px;
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    text-align: left;
-    color: #ffffff;
-    position:absolute;
-    left: 169px;
-    top: 367px;
-}
-.Btn-bg {
-    width: 185px;
-    height: 54px;
-    border: solid 2px #ffffff;
-    position: absolute;
-    top: 444px;
-    left: 169px;
-}
-.See-menu {
-    width: 66px;
-    height: 10px;
-    font-family: Lato;
-    font-size: 13px;
-    font-weight: 900;
-    line-height: 1.85;
-    letter-spacing: 0.3px;
-    color: #ffffff;
-    position: absolute;
-    left: 60px;
-    top: 15px;
-}
-.welcome-to {
-    width: 1270px;
-    height: 700px;
 }
 .menu {
     width: 1270px;
