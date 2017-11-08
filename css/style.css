@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');	
 
-
 * {
   margin:0;
   padding:0;
@@ -41,6 +40,7 @@
 }
 
 .text-style-1 {
+    text-decoration:none;
     font-weight: 900;
     color: #f5d76e;
 }
@@ -157,100 +157,132 @@ a.Menu {
   padding-left:59px;
 }
 
-.menu {
-    width: 1270px;
-    position: relative;
+.block_location {
+	width: 100%;
+	height: 524px;
+	
 }
 
-.title {
-    width: 94px;
-    height: 24px;
-    font-family: Playfair Display;
+h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 32px;
+    font-weight: bold;
+    line-height: 0.75;
+    text-align: center;
+    color: #28211f;
+    color: var(--black);
+    padding-bottom:60px;
+    margin: 0;
+}
+.menu {
+		max-width: 1270px;
+		position: relative;
+}
+.title {
+		width: 135px;
+		height: 99px;
+    font-family: Playfair Display;
+    font-size: 2rem;
     font-weight: bold;
     color: #2f2f2f;
     margin: 0 auto;
+		text-align: center;
 }
-
 .img-placeholder {
-    margin-top: 59px;
-    width: 1270;
+	  max-width: 1270px;
+    margin: 0 auto;
+		position: relative;
 }
-
 .coffee-placeholder {
-    width: 395px;
-    height: 295px;
+    width: 29.281%;
+		height: auto;
     display: inline-block;
     position: relative;
+		margin-left: 2.5%;
 }
-
 .tea-photo-placeholder {
-    width: 395px;
-    height: 295px;
+    width: 29.281%;
+		height: auto;
     display: inline-block;
     position: relative;
-    margin-left: 38px;
-    margin-right: 39px;
+    margin-left: 3.138%;
+    margin-right: 3.138%;
 }
-
 .desert-placeholder {
-    width: 395px;
-    height: 295px;
+    width: 29.281%;
+		height: auto;
     background-color: #f5d76e;
     display: inline-block;
     position: relative;
 }
-
 .cup-coffee {
-    width: 395px;
-    height: 295px;
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
 }
-
 .tea-realisticshots {
-    width: 395px;
-    height: 295px;
+		max-width: 100%;
+		height: auto;
     object-fit: contain;
 }
-
 .dessert {
-    width: 395px;
-    height: 295px;
+		max-width: 100%;
+		height: auto;
     object-fit: contain;
     opacity: 0.25;
 }
 .coffee {
-    width: 160px;
-    height: 30px;
+    max-width: 155px;
     font-family: Playfair Display;
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: bold;
     color: #000000;
     position: absolute;
-    top: 120px;
-    left: 120px;
+    top: 40.139%;
+    left: 30.306%;
 }
 .tea {
-    width: 78px;
-    height: 30px;
+    max-width: 78px;
     font-family: Playfair Display;
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: bold;
     color: #000000;
     position: absolute;
-    top: 120px;
-    left: 160px;
+		top: 40.139%;
+		left: 40.306%;
 }
 .desserts {
-    width: 205px;
-    height: 30px;
+    max-width: 205px;
     font-family: Playfair Display;
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: bold;
     color: #000000;
     position: absolute;
-    top: 120px;
-    left: 96px;
+		top: 40.136%;
+		left: 24.75%;
+}
+.name-product {
+    font-weight: 900;
+}
+.price-menu {
+		width: 100%;
+		display: flex;
+}
+.price-coffee {
+		width: 29.281%;
+    display: inline-block;
+		margin-left: 2.5%;
+}
+.price-desserts {
+		width: 29.281%;
+		display: inline-block;
+		margin-left: 2.5%;
+}
+.price-tea {
+		width: 29.281%;
+		display: inline-block;
+		margin-left: 3.138%;
+		margin-right: 1.8%;
 }
 ul {
     display: inline-block;
@@ -259,170 +291,58 @@ li {
     list-style-type: none;
     font-family: Lato;
     color: #28211f;
-    line-height: 1.75;
-    font-size: 16px;
-}
-.name-product {
-    font-weight: 900;
-}
-.price-desserts,
-.price-tea,
-.price-coffee {
-    margin-left: 30px;
-    display: inline-block;
+    line-height: 150%;
+    font-size: 1rem;
 }
 .button-fm {
-    width: 232px;
-    height: 54px;
+    max-width: 17.405%;
+		height: auto;
     background-color: white;
     border: solid 2px #39312f;
     margin: 0 auto;
     margin-top: 59px;
     position: relative;
-}
-
-.btn-fm {
-    position: absolute;
-    font-family: Lato;
-    font-size: 13px;
+		display: block;
+		text-align: center;
+		font-family: Lato;
+    font-size: 1rem;
     font-weight: 900;
-    letter-spacing: 0.3px;
+		line-height: 300%;
+		letter-spacing: 0.3px;
     color: #39312f;
-    top: 20px;
-    left: 65px;
+		text-decoration: none;
 }
-
 .tea-name {
-    margin-right: 36px;
+		margin-right: 10%;
+		margin-left: 10%;
 }
-
 .coffee-name,
 .desserts-name {
-    margin-right: 56px;
+		margin-right: 20.77%;
+		margin-left: 15%;
 }
 
 .block_coffee {
-	width: 1270px;
+	width: 100%;
     height: 423px;
 }
-
-.Coffee-never-tasted-so-good {
-    width: 431px;
-    height: 33px;
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 0.75;
-    text-align: left;
-    color: #28211f;
-    color: var(--black);
-    padding: 98px 424px 0 445px;
-}
-
-.houston-city {
-    width: 1270px;
-    height: 425px;
-    object-fit: contain;
-    position: absolute;
-}
-
-.Hours-bg {
-    width: 458px;
-    height: 425px;
-    background-color: #f5d76e;
-    position: relative;
-}
-
-.info {
-	width: 358px;
-    height: 302px;
-    position: relative;
-    padding: 59px 50px 64px 50px; 
-}
-
-h3 {
-	height: 16px;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.4;
-    text-align: left;
-    color: #28211f;
-    color: var(--black);
-    margin: 0 0 23px 0;
-}
-
-h4 {
-	font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.5;
-    text-align: left;
-    color: #28211f;
-    color: var(--black);
-    margin: 0 0 19px 0;
-}
-span {
-	font-weight: 600;
-}
-
-.Coffee-never-tasted-so-good u {
-    font-weight: 900;
-}
-
-.morbi {
-	width: 755px;
-    height: 61px;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    color: #28211f;
-    color: var(--black);
-    padding: 32px 272px 80px 273px;
-}
-
-.icon-coffee {
-    width: 39px;
-    height: 39px;
-    object-fit: contain;
-    padding: 0px 631px 80px 630px;
-}
-
-.header {
-    width: 214px;
-    height: 24px;
-    font-family: Playfair Display;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 0.75;
-    text-align: left;
-    color: #100C0B;
-    color: var(--black);
-    position: relative;
-    padding: 0 530px 60px 530px;
-}
 .BG {
-    width: 1270px;
+    width: 100%;
     height: 425px;
-    background-color: #39312f;
     position: relative;
 }
-.realisticshots-coffee-photo {
-    width: 821px;
-    height: 425px;
-    position: absolute;
-}
+
 .Testimonial-bg {
-    width: 458px;
+    width: 35%;
     height: 425px;
     position: absolute;
     right: 0;
 }
 .realisticshots-coffee-photo {
-    width: 1270px;
+    width: 100%;
     height: 425px;
     object-fit: contain;
+    position: absolute;
 }
 .Chris-Parker {
     position: absolute;
@@ -475,8 +395,8 @@ span {
     top: 400px;
 }
 .Bruno-Bergher {
-    width: 84px;
-    height: 84px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
     background-color: #ececec;
     border-radius: 50%;
@@ -522,24 +442,74 @@ span {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
-
-.block_location {
-	width: 1270px;
-	height: 524px;
+iframe {
+    width: 65%;
+    height: 425px;
+    float: right;
 }
 
-.Location {
-    width: 167px;
-    height: 24px;
+.Hours-bg {
+    width: 35%;
+    height: 425px;
+    background-color: #f5d76e;
+    float: left;
+}
+
+.info {
+	width: 80%;
+    height: 302px;
+    position: relative;
+    padding: 59px 50px 64px 50px; 
+}
+
+h3 {
+	height: 16px;
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: bold;
-    line-height: 0.75;
+    line-height: 1.4;
     text-align: left;
     color: #28211f;
     color: var(--black);
-    padding: 0 567px 60px 566px;
-} 
+    margin: 0 0 23px 0;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #28211f;
+    color: var(--black);
+    margin: 0 0 19px 0;
+}
+span {
+	font-weight: 600;
+}
+
+.Coffee-never-tasted-so-good u {
+    font-weight: 900;
+}
+
+.morbi {
+	width: 59%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #28211f;
+    color: var(--black);
+    margin: 0 auto;
+    padding: 32px 0 80px 0;
+}
+
+.icon-coffee {
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+    padding: 0 0 80px 48%;
+}
 
 .footer-bg {
   width: 100%;
