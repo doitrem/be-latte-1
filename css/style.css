@@ -7,89 +7,125 @@
 }
 
 .content {
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 .header-bg {
-  width: 1300px;
-  height: 700px;
+  width: 100vw;/*100%;*/
+  height: 53vw;/*700px;*/
+  margin: 0 auto;
   position:absolute;
+  z-index: 20;
+  overflow: hidden;
 }
 
  .Top-navigation-bg {
-  width: 100%;
-  height: 100px;
+  max-width: 100vw; /*100%;*/
+  height: 8vw; /*100px;*/
   opacity: 0.35;
   background-color: #000000;
 }
 
+.button-header {
+  width: 100vw;/*100%;*/
+  height: 12vw;/*150px;*/
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; 
+}
+
 .Home-About-us {
-  width: 198px;
-  height: 14px;
+  width:  10vw;/*250px;*/
+  height: 2vw;/*25px;*/
   font-family: Playfair Display;
-  font-size: 16px;
+  font-size: 1.2vw;/*16px;*/
   font-weight: bold;
   line-height: 1.75;
-  text-align: center;
+  text-align: right;
   color: #ffffff;
-  link:white;
-  float: left;
-  padding-left:347px;
-  padding-top:42px;
+  object-fit: contain;
+  display: block;
+  border: none;
+  padding-top: 3vw;/*42px;*/
+  padding-left: 10vw;
+  overflow: hidden;
 }
 
 .text-style-1 {
-    text-decoration:none;
-    font-weight: 900;
-    color: #f5d76e;
+  text-decoration:none;
+  font-weight: 900;
+  color: #f5d76e;
+}
+
+a.text-style-1:hover {
+  color:#FFFF99;
 }
 
 .Menu-Blog-Contact {
-  width: 250px;
-  height: 16px;
+  width: 19vw;/*250px;*/
+  height: 2vw;/*25px;*/
   font-family: PlayfairDisplay;
-  font-size: 16px;
+  font-size: 1.2vw;/*16px;*/
   font-weight: bold;
   line-height: 1.75;
   text-align: left;
   color: #ffffff;
-  float: left;
-  padding-top:42px;
-  padding-left:40px;
+  object-fit: contain;
+  padding-left:3vw;/*40px;*/
+  padding-top:3vw;/*42px;*/
+  overflow: hidden;
 }
 
 .Be-latte---logo {
-  width: 154px;
-  height: 127px;
+  width:  12vw;/*154px;*/
+  height: 10vw; /*127px;*/
+  padding-top: 0.31vw; /*4px;*/
   object-fit: contain;
-  float:left;
-  padding-top:4px;
-  padding-left:38px;
-}
+  padding-left:3vw;/* 38px;*/
+} 
 
 a.About-us {
-    color: white;
+  color: white;
 	text-decoration:none;
-    padding-left:20px;
+  padding-left: 2vw;/*20px;*/
+}
+
+a.About-us:hover {
+  color:#f5d76e;
 }
 
 a.Blog {
     color: white;
 	text-decoration:none;
-    padding-left:20px;
+    padding-left:2vw;
+}
+
+a.Blog:hover {
+  color:#f5d76e;
 }
 
 a.Contact {
     color: white;
 	text-decoration:none;
-    padding-left:20px;
+    padding-left:2vw;
 }
+
+a.Contact:hover {
+  color:#f5d76e;
+}
+
 
 a.Menu {
     color: white;
 	text-decoration:none;
 }
+
+a.Menu:hover {
+  color:#f5d76e;
+}
+
 
 .welcome-to {
     width: 100%;
@@ -97,65 +133,69 @@ a.Menu {
 }
 
 .coffee-shop {
-    width: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  position: relative;
+  z-index:10;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 .Welcome-to-Be-Latte {
-    width: 464px;
-    height: 39px;
-    font-family: Playfair Display;
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 0.58;
-    text-align: center;
-    color: #f5d76e;
-    position:absolute;
-    top:301px;
-    padding-left:166px;
+  width: 40vw;
+  height: 39px;
+  font-family: PlayfairDisplay;
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 0.58;
+  text-align: center;
+  color: #f5d76e;
+  position:absolute;
+  top:23vw;
+  left:10.3vw;/*169px*/
+  z-index: 20;
 }
 
 .Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
-  width: 436px;
-  height: 59px;
+  width: 34vw;
+  height: 3vw;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: 500;
   line-height: 1.5;
   text-align: left;
   color: #ffffff;
-  position:absolute;
-  top: 367px;
-  padding-left: 169px;
-  overflow: hidden;
+  position: absolute;
+  z-index: 20;
+  top:28vw; /*367px*/
+  left:13vw;/*169px*/
 }
 
 .Btn-bg {
-    width: 185px;
-    height: 54px;
-    border: solid 2px #ffffff;
+    width: 14vw; /*185px;*/
+    height: 4vw; /*54px;*/
+    border: solid 0.2vw #ffffff; 
     position: absolute;
-    z-index:100;
-    top: 444px;
-    margin-left:169px;
+    display: block;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1vw; /*13px;*/
+    font-weight: 900;
+    line-height: 4;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    top: 34vw; /*444px;*/
+    left: 13vw ;/*169px;*/
+    color: white;
+    z-index: 20;
 }
 
-.See-menu {
-  width: 500px;
-  height: 10px;
-  font-family: Lato;
-  font-size: 13px;
-  font-weight: 900;
-  line-height: 1.85;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-  position:absolute;
-  z-index:200;
-  padding-top:15px;
-  padding-left:59px;
+a.Btn-bg:hover {
+  border: solid 2px #f5d76e;
+  color: #f5d76e;
 }
+
 
 .block_location {
 	width: 100%;
