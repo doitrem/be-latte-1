@@ -25,7 +25,12 @@
 }
 
 .botton-header {
-  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; 
 }
  
 .Home-About-us {
@@ -38,8 +43,9 @@
   text-align: center;
   color: #ffffff;
   link:white;
-  float: left;
-  padding-left:347px;
+  object-fit: contain;
+  display: block;
+  border: none;
   padding-top:42px;
 }
 
@@ -58,19 +64,19 @@
   line-height: 1.75;
   text-align: left;
   color: #ffffff;
-  float: left;
-  padding-top:42px;
+  /*float: left;*/
+  object-fit: contain;
   padding-left:40px;
+  padding-top:42px;
 }
 
 .Be-latte---logo {
   width: 154px;
   height: 127px;
+  top:4px;
   object-fit: contain;
-  float:left;
-  padding-top:4px;
   padding-left:38px;
-}
+} 
 
 a.About-us {
     color: white;
