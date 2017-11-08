@@ -37,7 +37,7 @@
 }
 
 .Home-About-us {
-  width:  10vw;/*250px;*/
+  width:  11vw;/*250px;*/
   height: 2vw;/*25px;*/
   font-family: Playfair Display;
   font-size: 1.2vw;/*16px;*/
@@ -49,7 +49,7 @@
   display: block;
   border: none;
   padding-top: 3vw;/*42px;*/
-  padding-left: 10vw;
+  padding-left: 9vw;
   overflow: hidden;
 }
 
