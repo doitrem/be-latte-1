@@ -402,7 +402,40 @@ li {
     line-height: 1.2;
     text-align: center;
     color: #f5d76e;
+    opacity: 1;
  }
+
+.Peter-Parker {
+    position: absolute;
+    top: 197px;
+    left: 171px;
+    width: 118px;
+    height: 17px;
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5d76e;
+    opacity: 1;
+ }
+
+/* .Kevin-Parker {
+    position: absolute;
+    top: 197px;
+    left: 171px;
+    width: 118px;
+    height: 17px;
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5d76e;
+    opacity: 1;
+ }
+*/
+
 .layer {
     width: 111px;
     height: 50px;
@@ -416,6 +449,21 @@ li {
     top: 32px;
     left: 30px;
 }
+
+.layer2 {
+    width: 111px;
+    height: 50px;
+    font-family: Playfair Display;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 0.23;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    top: 32px;
+    left: 30px;
+}
+
 .text {
     width: 256px;
     height: 75px;

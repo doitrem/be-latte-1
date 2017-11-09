@@ -1,29 +1,32 @@
-var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
-	 
-// Image List
-images[0] = "http://lorempixel.com/400/200/animals";
-images[1] = "http://lorempixel.com/400/200/sports";
-images[2] = "http://lorempixel.com/400/200/food";
-images[3] = "http://lorempixel.com/400/200/people";
+var slideIndex=1;
+showSlides(slideIndex);
 
-// Change Image
-function changeImg(){
-	document.slide.src = images[i];
 
-	// Check If Index Is Under Max
-	if(i < images.length - 1){
-	  // Add 1 to Index
-	  i++; 
-	} else { 
-		// Reset Back To O
-		i = 0;
-	}
-
-	// Run function every x seconds
-	setTimeout("changeImg()", time);
+function plusSlides(n){
+	showSlides(slideIndex += n);
 }
 
-// Run function when page loads
-window.onload=changeImg;
+function currentSlide(n){
+	showSlides(slideIndex = n);
+}
+
+function showSlides(n){
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+
+	if(n > slides.length){
+		slideIndex = 1;
+	}
+	if(n < 1){
+		slideIndex = slides.length;
+	}
+	for(i=0; i<slides.length; i++){
+		slides[i].style.display = "none";
+	}
+	for(i=0; i < dots.length; i++){
+		dots[i].className = dots[i].className.replace("active","");
+	}
+	 slides[slideIndex-1].style.display = "block";
+	 dots[slideIndex-1].className+= " active";
+}
